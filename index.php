@@ -9,6 +9,7 @@ $beats = [
     'Toxz - Grab The Stick_88BPM',
     'Toxz - Like A Ghost_97BPM',
     'Toxz - Team Up The Crew_93BPM',
+    'Toxz - Don\'t Mess With The East_100BPM',
     'Toxz - Gladiator_86BPM',
     'Toxz - Chipmunk Anthem_94BPM',
     'Toxz - Will Wieder Leben_75BPM',
@@ -34,6 +35,7 @@ $beats = [
     'Toxz - Dear Hip Hop_87BPM',
     'Toxz - We Are Masters_84BPM',
     'Toxz - Let\'s Get Naked_120BPM',
+    'Toxz - Cold Faces_83BPM',
     'Toxz - Fire_60BPM',
     'Toxz - The Return_89BPM',
     'Toxz - Get Up For A New World_85BPM',
@@ -42,22 +44,27 @@ $beats = [
     'Toxz - Krom_87BPM',
     'Toxz - Lands Of Hope_97BPM',
     'Toxz - Poker Ass_82BPM',
+    'Toxz - Orgel_84BPM',
     'Toxz - Unicorn_102BPM',
-    'Toxz - Piano Dreams_87BPM',
+    'Toxz - Fick Die Stadt_84BPM',
     'Toxz - Stand Up_97BPM',
+    'Toxz - Piano Dreams_87BPM',
     'Toxz - In Der Kirche_90BPM',
     'Toxz - Doom_95BPM',
     'Toxz - Dein Style Ist Crazy_90BPM',
     'Toxz - Destroy Everything_86BPM',
     'Toxz - Orientblüte_89BPM',
+    'Toxz - Drunken Funker_90BPM',
     'Toxz - Dub Siren_82BPM',
+    'Toxz - Auf Den Punkt_100BPM',
     'Toxz - Nicht Von Dieser Welt_92BPM',
-    'Toxz - Berlin Berlin_125BPM',
+    'Toxz - Freaks With No Future_113BPM',
+    'Toxz - Crazy Brains_87BPM',
+    'Toxz - Kellergroove_68BPM',
+    'Toxz - Fag Fluter_94BPM',
     'Toxz - Bounce_96BPM',
     'Toxz - New Year_107BPM',
-    'Toxz - Auf Den Punkt_100BPM',
     'Toxz - The Warrior_93BPM',
-    'Toxz - Fag Fluter_94BPM',
     'Toxz - Monstersound_94BPM',
     'Toxz - Fat Beatzn_105BPM',
     'Toxz - Autoknacker_106BPM',
@@ -67,11 +74,15 @@ $beats = [
     'Toxz - The Real Baseliner_90BPM',
     'Toxz - Hot Like Fire_85BPM',
     'Toxz - This Is My Year_86BPM',
+    'Toxz - Killer\'s Day_58BPM',
     'Toxz - Psychoman_88BPM',
+    'Toxz - Back Im Business_80BPM',
     'Toxz - Outer World_90BPM',
     'Toxz - Heavy Trip_86BPM',
     'Toxz - Einleitung_93BPM',
     'Toxz - Knietief_86BPM',
+    'Toxz - Thug Life_89BPM',
+    'Toxz - Feel The Summer_125BPM',
     'Toxz - Backjump_89BPM',
     'Toxz - Night Rider_90BPM',
     'Toxz - Tunnelblick_95BPM',
@@ -82,18 +93,29 @@ $beats = [
     'Toxz - Track An Gott_87BPM',
     'Toxz - Chill Down The Universe_92BPM',
     'Toxz - Kelly_77BPM',
+    'Toxz - Dope 4 Hope_88BPM',
+    'Toxz - Holy Shit Kicks_94BPM',
     'Toxz - Hardliner_93BPM',
+    'Toxz - Scheiss Drauf_83BPM',
     'Toxz - Dark Business_87BPM',
     'Toxz - High Lines_93BPM',
     'Toxz - Bloodsport_87BPM',
+    'Toxz - Geigensmasher_89BPM',
     'Toxz - Check Em Out_90BPM',
+    'Toxz - Recyclinghof_96BPM',
+    'Toxz - Fuck Da Master_96BPM',
+    'Toxz - Children_76BPM',
+    'Toxz - My Life_91BPM',
     'Toxz - Yeah_89BPM',
+    'Toxz - Einfach Boom_92BPM',
     'Toxz - Stoned Raiders_87BPM',
     'Toxz - Zitronenbaum_104BPM',
     'Toxz - Zigarettenpause_96BPM',
     'Toxz - Crazy Shit_87BPM',
+    'Toxz - Kill All Humans_104BPM',
     'Toxz - Stiff Piano Riffs_95BPM',
     'Toxz - It\'s Time_89BPM',
+    'Toxz - Rolex_90BPM',
     'Toxz - Fresh_96BPM',
     'Toxz - Party People_92BPM',
     'Toxz - Deathchamber 612_112BPM',
@@ -101,10 +123,16 @@ $beats = [
     'Toxz - Fuck Your Sister_135BPM',
     'Toxz - Engel Der Nacht_97BPM',
     'Toxz - Streeters_87BPM',
+    'Toxz - Fantasy Love_71BPM',
+    'Toxz - Synthie Burner_77BPM',
     'Toxz - Mindless Mashup_125BPM',
     'Toxz - Glocken Und So_92BPM',
     'Toxz - Soul Calibur_110BPM',
+    'Toxz - Street Fighter Battle_106BPM',
+    'Toxz - Tetris_140BPM',
     'Toxz - Streetlife On Drugs_88BPM',
+    'Toxz - Start From Scratch_86BPM',
+    'Toxz - 2UPs_97BPM',
     'Toxz - The Green Planet_140BPM',
     'Toxz - Backyard Rave_150BPM',
     'Toxz - The 90ies Dance_130BPM',
@@ -112,8 +140,12 @@ $beats = [
     'Toxz - Zulu Warrior_94BPM',
     'Toxz - Long Live The Kim_95BPM',
     'Toxz - Elektronigans_100BPM',
-    'Toxz - Watch Dis_125BPM',
+    'Toxz - The Master Is In The House_93BPM',
+    'Toxz - Funky Lover_83BPM',
+    'Toxz - Macheten_95BPM',
     'Toxz - Rocking Beats_94BPM',
+    'Toxz - Mary In Love_80BPM',
+    'Toxz - Watch Dis_125BPM',
     'Toxz - Transmission Controllers_92BPM',
     'Toxz - Fat Boys_86BPM',
     'Toxz - Allein Zu Zweit_94BPM',
@@ -124,10 +156,12 @@ $beats = [
     'Toxz - The U The B The S_95BPM',
     'Toxz - Flute Destroyer_95BPM',
     'Toxz - Graffiti Terroristen_90BPM',
+    'Toxz - I Wanna Call You_98BPM',
     'Toxz - The End Is Near_90BPM',
     'Toxz - Pull Up To The Bumper (Remix)_120BPM',
     'Toxz - Ready Or Not (Remix)_174BPM',
     'Toxz - Street Dreams (Remix)_100BPM',
+    'Toxz - Berlin Berlin (Remix)_125BPM',
     'Toxz - Holiday Mixtape 2005'
 ];
 
@@ -259,7 +293,7 @@ function formatBeatName($name) {
             <? foreach($beats as $beat): ?>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <div class="play" lazy-style="background-image: url(beats/<?=rawurlencode($beat); ?>.jpg);">
+                        <div class="play" background-image="beats/<?=rawurlencode($beat); ?>.jpg">
                             <a
                                 class="inline-playable btn btn-default"
                                 href="beats/<?=rawurlencode($beat); ?>.mp3"
@@ -291,17 +325,25 @@ function formatBeatName($name) {
     var handler = function() {
         var elements = document.getElementsByClassName('play');
         for (var property in elements) {
-            if (!elements.hasOwnProperty(property)) continue;
-            var element = elements[property];
-            var rect = element.getBoundingClientRect();
-            if (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            ) {
-                element.setAttribute('style', element.getAttribute('lazy-style'));
-            }
+            (function() {
+                if (!elements.hasOwnProperty(property)) return;
+                var element = elements[property];
+                var rect = element.getBoundingClientRect();
+                if (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                ) {
+                    var backgroundImageUrl = element.getAttribute('background-image');
+                    var image = new Image();
+                    image.onload = function() {
+                        element.style.backgroundImage = 'url(' + backgroundImageUrl +')';
+
+                    };
+                    image.src = backgroundImageUrl;
+                }
+            })();
         }
     };
     if (window.addEventListener) {
