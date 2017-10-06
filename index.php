@@ -2,27 +2,36 @@
 
 // beat file names
 $beats = [
-    'Toxz - Oreo Dust_73BPM',
-    'Toxz - Baby Doll_84BPM',
-    'Toxz - Blood From The Sky_85BPM',
+    'Toxz - Diamonty_86BPM',
+    'Toxz - Electric Smoke_120BPM',
+    'Toxz - Mosquito_84BPM',
+    'Toxz - Internet Rock_86BPM',
+    'Toxz - Sugar Brown_88BPM',
+    'Toxz - Keep It Low_68BPM',
+    'Toxz - Milky Clouds_89BPM',
+    'Toxz - Ganxta Bitch_74BPM',
+    'Toxz - Devastated_50BPM',
     'Toxz - Criminal Minded_95BPM',
     'Toxz - Strings On Acid_88BPM',
     'Toxz - Altered Beast_86BPM',
     'Toxz - No Pain No Gain_116BPM',
+    'Toxz - Blood From The Sky_85BPM',
     'Toxz - Grab The Stick_88BPM',
     'Toxz - Hard Guitar_97BPM',
+    'Toxz - Oreo Dust_73BPM',
     'Toxz - Like A Ghost_97BPM',
     'Toxz - Team Up The Crew_93BPM',
     'Toxz - Gladiator_86BPM',
     'Toxz - Fight For Might_89BPM',
     'Toxz - Don\'t Mess With The East_100BPM',
+    'Toxz - Vergiss Damals_78BPM',
+    'Toxz - Baby Doll_84BPM',
     'Toxz - Chipmunk Anthem_94BPM',
     'Toxz - Will Wieder Leben_75BPM',
     'Toxz - Hurt Locker_89BPM',
-    'Toxz - Vergiss Damals_78BPM',
-    'Toxz - Es Wird Blut Geben_87BPM',
-    'Toxz - For The Old Ones_112BPM',
     'Toxz - Splash The Party Pool_96BPM',
+    'Toxz - For The Old Ones_112BPM',
+    'Toxz - Es Wird Blut Geben_87BPM',
     'Toxz - Saxocut_88BPM',
     'Toxz - The New Beginning_86BPM',
     'Toxz - Want It All_92BPM',
@@ -34,26 +43,26 @@ $beats = [
     'Toxz - Beach Assault_120BPM',
     'Toxz - Red Light Bitches_100BPM',
     'Toxz - Jazzy Funky_60BPM',
-    'Toxz - Girl Holla_107BPM',
     'Toxz - Desert Safari_82BPM',
     'Toxz - Die Eisernen Hanteln_124BPM',
     'Toxz - Life Is A Broken Dream_89BPM',
     'Toxz - New Drunken Flat_86BPM',
+    'Toxz - Girl Holla_107BPM',
     'Toxz - Glockenturm Rave_88BPM',
     'Toxz - Work Dat_91BPM',
     'Toxz - Music For Kingz_77BPM',
-    'Toxz - Hamburg Remix_71BPM',
     'Toxz - Dear Hip Hop_87BPM',
     'Toxz - We Are Masters_84BPM',
     'Toxz - Bring The Notes_96BPM',
     'Toxz - Cyborg Wars_92BPM',
     'Toxz - Let\'s Get Naked_120BPM',
+    'Toxz - Bone Rider_97BPM',
     'Toxz - Foggy Roads_86BPM',
     'Toxz - Cold Faces_83BPM',
+    'Toxz - Hamburg Remix_71BPM',
     'Toxz - Fire_60BPM',
     'Toxz - The Return_89BPM',
     'Toxz - Get Up For A New World_85BPM',
-    'Toxz - Bone Rider_97BPM',
     'Toxz - Graveyard Bouncer_91BPM',
     'Toxz - Krom_87BPM',
     'Toxz - Lands Of Hope_97BPM',
@@ -98,13 +107,13 @@ $beats = [
     'Toxz - Autoknacker_106BPM',
     'Toxz - Toxic Waste Outro_109BPM',
     'Toxz - Saxy Stomp_92BPM',
+    'Toxz - This Is My Year_86BPM',
     'Toxz - Gabba Hop_88BPM',
     'Toxz - Bongo Bomber_86BPM',
     'Toxz - Alone And Free_107BPM',
     'Toxz - The Real Baseliner_90BPM',
     'Toxz - Hot Like Fire_85BPM',
     'Toxz - Respektlose Nacht_88BPM',
-    'Toxz - This Is My Year_86BPM',
     'Toxz - Killer\'s Day_58BPM',
     'Toxz - Acid Bowle_84BPM',
     'Toxz - Bloody Roar_87BPM',
@@ -140,14 +149,14 @@ $beats = [
     'Toxz - Return Of The Hardest_87BPM',
     'Toxz - Fuck Da Master_96BPM',
     'Toxz - Dope 4 Hope_88BPM',
+    'Toxz - High Lines_93BPM',
     'Toxz - Holy Shit Kicks_94BPM',
     'Toxz - Bomb The Bank_79BPM',
     'Toxz - Ragga_89BPM',
     'Toxz - Hardliner_93BPM',
     'Toxz - Scheiss Drauf_83BPM',
-    'Toxz - Dark Business_87BPM',
-    'Toxz - High Lines_93BPM',
     'Toxz - Notorious_87BPM',
+    'Toxz - Dark Business_87BPM',
     'Toxz - Bloodsport_87BPM',
     'Toxz - Geigensmasher_89BPM',
     'Toxz - Check Em Out_90BPM',
@@ -158,9 +167,9 @@ $beats = [
     'Toxz - My Life_91BPM',
     'Toxz - New Era_70BPM',
     'Toxz - Blow The Horns Bitch_93BPM',
+    'Toxz - Chop Rott_89BPM',
     'Toxz - Yeah_89BPM',
     'Toxz - Einfach Boom_92BPM',
-    'Toxz - Chop Rott_89BPM',
     'Toxz - Get Retarded_94BPM',
     'Toxz - Stoned Raiders_87BPM',
     'Toxz - Zitronenbaum_104BPM',
@@ -252,7 +261,9 @@ $beats = [
     'Toxz - Berlin Berlin (Remix)_125BPM',
     'Toxz - Holiday Mixtape 2005',
     'Toxz - Back In Time Turntable Mini Mix',
-    'Hassler & Player - Champagne Mixtape'
+    'Hassler & Player - Champagne Mixtape',
+    'Battle Of The Beats Mixtape Vol. 1',
+    'Battle Of The Beats Mixtape Vol. 2'
 ];
 
 $languageCode = 'de';
@@ -272,12 +283,12 @@ $intro = '
             <strong>Gema freie Musik</strong> als Untermalung für deine <strong>YouTube-Videos</strong> oder als <strong>Instrumental</strong> für deinen Rap-Track.
         </p>
         <p>
-            Made in Berlin since 1996!
+            Made in Berlin since 1993!
         </p>
     ';
 $license = '
         <p>
-            Die auf dieser Webseite zum Download angebotenen MP3s werden unter der <strong>Creative Commons Lizenz</strong> "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Attribution-NonCommercial-ShareAlike</a>" angeboten.
+            Die auf dieser Webseite zum <strong>Download</strong> angebotenen MP3s werden unter der <strong>Creative Commons Lizenz</strong> "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Attribution-NonCommercial-ShareAlike</a>" angeboten.
             Bitte beachte diese Lizenzbedingungen, wenn du meine Musik verwenden möchtest.
         </p>
         <p>
@@ -308,7 +319,7 @@ if (isset($_GET['en'])) {
             <strong>Free music</strong> as background for your <strong>YouTube video</strong> or as <strong>instrumental beat</strong> for your own rap tracks.
         </p>
         <p>
-            Made in Berlin since 1996!
+            Made in Berlin since 1993!
         </p>
     ';
     $license = '
@@ -353,6 +364,9 @@ function formatBeatName($name) {
 <body>
 <div class="container text-right">
     <?=$language; ?>
+    <a class="youtube" href="https://www.youtube.com/channel/UCU5_FIDO1V0nH0NUJisMx9g">
+        <img src="images/youtube.svg" alt="YouTube">
+    </a>
     <a class="soundcloud" href="https://soundcloud.com/toxz-beats">
         <img src="images/soundcloud.svg" alt="Soundcloud">
     </a>
