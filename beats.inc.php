@@ -1,5 +1,14 @@
 <?php
 $beats = [
+    'Toxz - Forever_98BPM',
+    'Toxz - Clash Of Natives_75BPM',
+    'Toxz - Father And Son_75BPM',
+    'Toxz - Game Changer_70BPM',
+    'Toxz - Don\'t Stop_89BPM',
+    'Toxz - Adriano_85BPM',
+    'Toxz - Turtle Funk_63BPM',
+    'Toxz - Heisenberger_84BPM',
+    'Toxz - Big City Scratch_85BPM',
     'Toxz - Diamonty_86BPM',
     'Toxz - Electric Smoke_120BPM',
     'Toxz - Mosquito_84BPM',

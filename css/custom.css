@@ -8,8 +8,14 @@ body {
     background: #000 url(../images/body.png) bottom right no-repeat fixed;
 }
 
-h1{
+h1, h2{
     font-family: 'Bungee', cursive;
+}
+
+h2 {
+    margin-bottom: 1em;
+    text-align: right;
+    color: #888;
 }
 
 .soundcloud, .facebook, .youtube {
@@ -25,6 +31,20 @@ h1{
 
 .youtube {
     margin: 1em;
+}
+
+.donate {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.donate input {
+    display: inline;
+    margin: 1em 0 0 0;
+    padding: 0;
+    width: 3em;
+    height: 3em;
 }
 
 .facebook, .soundcloud {
@@ -43,6 +63,10 @@ h1{
 
 .caption {
     height: 3.5em;
+}
+
+.thumbnail.video {
+    line-height: 0;
 }
 
 .thumbnail .play {
