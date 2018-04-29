@@ -38,8 +38,8 @@ $license = '
 
 if (isset($_GET['en'])) {
     $languageCode = 'en';
-    $title = 'Toxz Beats - free music, beats & instrumentals';
-    $metaDescription = 'free music for your YouTube video or your rap tracks.';
+    $title = 'Toxz Beats - free beats, music & instrumentals';
+    $metaDescription = 'free music for your YouTube video or rap tracks.';
     $language = '<a class="language" href="/">german version</a>';
     $intro = '
         <h1>Toxz Beats</h1>
@@ -81,11 +81,6 @@ if (isset($_GET['en'])) {
  */
 function formatBeatName($name) {
     $name = str_replace('Toxz - ', '', $name);
-    $name = str_replace('Ass', '/-\ss', $name);
-    $name = str_replace('Bitch', 'B*tch', $name);
-    $name = str_replace('Fuck', 'F*ck', $name);
-    $name = str_replace('Fick', 'F*ck', $name);
-    $name = str_replace('Scheiss', 'Sche*ss', $name);
     $name = preg_split('/(?=_)/', $name, -1, PREG_SPLIT_NO_EMPTY)[0];
     return $name;
 }
@@ -286,15 +281,6 @@ function formatBeatName($name) {
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-51452412-9', 'auto');
     ga('send', 'pageview');
-</script>
-<!-- toxz.de -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2161599779446151"
-     data-ad-slot="2181338926"
-     data-ad-format="auto"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </body>
 </html>
