@@ -7,7 +7,7 @@ $language = '<a class="language" href="en">english version</a>';
 $intro = '
         <h1>Toxz Beats</h1>
         <p>
-            Ob für das nächste <strong>Let\'s Play</strong> oder das <strong>Mixtape</strong>, alles funktioniert nur mit den richtigen Beats.
+            Ob für das nächste <strong>Fortnite Let\'s Play</strong>, <strong>Graffiti Video</strong>  oder das <strong>Mixtape</strong>, alles funktioniert nur mit den richtigen Beats.
         </p>
         <p>
             Du suchst dafür nach <strong>kostenloser Hip Hop- und Elektro-Musik</strong>?
@@ -31,7 +31,7 @@ $license = '
         </p>
         <p>
             Du willst mit werbeunterstützten Videos oder mit deinem Album finanziell voll durchstarten?
-            Kontaktiere mich einfach über <a href="https://www.facebook.com/ToxzBeats">Facebook</a>.
+            Kontaktiere mich einfach über <a href="https://www.instagram.com/toxzbeats/">Instagram</a>.
             Ohne Zustimmung von meiner Seite, darf <strong>die Musik für kommerzielle Projekte</strong> <u>nicht</u> verwendet werden!
         </p>
     ';
@@ -44,7 +44,7 @@ if (isset($_GET['en'])) {
     $intro = '
         <h1>Toxz Beats</h1>
         <p>
-            Your next <strong>Let\'s Play</strong> or <strong>mixtape</strong>, everything needs its music.
+            Your next <strong>Fortnite Let\'s Play</strong>, <strong>graffiti video</strong> or <strong>mixtape</strong>, everything needs its music.
         </p>
         <p>
             You are searching for <strong>royalty free hip hop- and electro-music</strong>?
@@ -68,7 +68,7 @@ if (isset($_GET['en'])) {
         </p>
         <p>
             You want to <strong>make some money with your Videos</strong> or go up in the billboard charts with your next album?
-            Contact me via <a href="https://www.facebook.com/ToxzBeats">Facebook</a>.
+            Contact me via <a href="https://www.instagram.com/toxzbeats/">Instagram</a>.
             Without permission you are <u>not</u> allowed to use the music in <strong>commercial projects</strong>!
         </p>
     ';
@@ -103,15 +103,20 @@ function formatBeatName($name) {
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <div class="container text-right">
     <?=$language; ?>
-    <a class="youtube" href="https://www.youtube.com/channel/UCU5_FIDO1V0nH0NUJisMx9g">
-        <img src="images/youtube.svg" alt="YouTube">
-    </a>
-    <a class="soundcloud" href="https://soundcloud.com/toxz-beats">
-        <img src="images/soundcloud.svg" alt="Soundcloud">
-    </a>
-    <a class="facebook" href="https://www.facebook.com/ToxzBeats">
-        <img src="images/facebook.svg" alt="Facebook">
-    </a>
+    <div class="social">
+        <a class="instagram" href="https://www.instagram.com/toxzbeats/">
+            <img src="images/instagram.svg" alt="Instagram">
+        </a>
+        <a class="youtube" href="https://www.youtube.com/channel/UCU5_FIDO1V0nH0NUJisMx9g">
+            <img src="images/youtube.svg" alt="YouTube">
+        </a>
+        <a class="soundcloud" href="https://soundcloud.com/toxz-beats">
+            <img src="images/soundcloud.svg" alt="Soundcloud">
+        </a>
+        <a class="facebook" href="https://www.facebook.com/ToxzBeats">
+            <img src="images/facebook.svg" alt="Facebook">
+        </a>
+    </div>
 </div>
 <div class="container">
     <div class="jumbotron">
@@ -128,28 +133,6 @@ function formatBeatName($name) {
 <div class="container">
     <div class="jumbotron">
         <?=$license; ?>
-    </div>
-</div>
-<div class="container">
-    <div class="jumbotron">
-        <h2>Videos</h2>
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/kgmnipO55LQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/r0JmBar2c0o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/6WeYIyPMcBk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <div class="container">
@@ -174,63 +157,7 @@ function formatBeatName($name) {
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="jumbotron">
-        <h2>...Videos</h2>
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/LbxovkP-RWk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/I-dnu-QF87Q?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/PKZT4MsN2_E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/f2RLfpkyHls?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/IgIb3Ho1L_4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/VF9U-bx64BA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/ToYVjY4Nw-0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/1svKLZcZndo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/eGS1EW66Gsk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="thumbnail video">
-                    <iframe width="100%" height="275" src="https://www.youtube.com/embed/-jrqYTrwi80?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="container">
     <img class="piece" src="images/piece.svg" alt="Toxz Graffiti">
 </div>

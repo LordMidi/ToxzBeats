@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bungee");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Bungee&display=swap");
 
 html {
     background: #333;
@@ -6,6 +6,7 @@ html {
 
 body {
     background: #000 url(../images/body.png) bottom right no-repeat fixed;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 h1, h2{
@@ -18,37 +19,40 @@ h2 {
     color: #888;
 }
 
-.soundcloud, .facebook, .youtube {
+.social {
+    display: inline-block;
+}
+
+@media (max-width: 420px) {
+    .language {
+        display: block;
+        margin-top: 0.5em;
+        text-align: center;
+    }
+
+    .social {
+        display: block;
+        text-align: center;
+    }
+}
+
+.soundcloud, .facebook, .youtube, .instagram {
     display: inline-block;
     width: 3em;
     height: 3em;
 }
 
-.soundcloud img, .facebook img, .youtube img {
+.facebook, .soundcloud, .youtube {
+    margin: 1em 1em 1em 0;
+}
+
+.soundcloud img, .facebook img, .youtube img, .instagram img {
     width: 100%;
     height: 100%;
 }
 
-.youtube {
+.instagram {
     margin: 1em;
-}
-
-.donate {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
-.donate input {
-    display: inline;
-    margin: 1em 0 0 0;
-    padding: 0;
-    width: 3em;
-    height: 3em;
-}
-
-.facebook, .soundcloud {
-    margin: 1em 1em 1em 0;
 }
 
 .toxz {
@@ -107,4 +111,8 @@ h2 {
     height: 5rem;
     margin: 0 0 1em 1em;
     background: url(../images/download.svg) center no-repeat;
+}
+
+.jumbotron {
+    background-color: transparent;
 }
