@@ -1,5 +1,13 @@
 <?php
 $beats = [
+    'Toxz - Battlewings_150BPM',
+    'Toxz - Creator Of Worlds_150BPM',
+    'Toxz - Musk_150BPM',
+    'Toxz - Upfront_98BPM',
+    'Toxz - King Of Beats_142BPM',
+    'Toxz - Inspire_144BPM',
+    'Toxz - Crash Money_144BPM',
+    'Toxz - Covid19_136BPM',
     'Toxz - Tawny Port_88BPM',
     'Toxz - East Bam_135BPM',
     'Toxz - We Never Cross Over_93BPM',
