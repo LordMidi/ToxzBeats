@@ -23,7 +23,7 @@ $intro = '
 $license = '
         <h2>Lizenz</h2>
         <p>
-            Die auf dieser Webseite zum <strong>Download</strong> angebotenen MP3s werden unter der <strong>Creative Commons Lizenz</strong> "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Attribution-NonCommercial-ShareAlike</a>" angeboten.
+            Die auf dieser Webseite zum <strong>Download</strong> angebotenen Lieder werden unter der <strong>Creative Commons Lizenz</strong> "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de">Attribution-NonCommercial-ShareAlike</a>" angeboten.
             Bitte beachte diese Lizenzbedingungen, wenn du meine Musik verwenden möchtest.
         </p>
         <p>
@@ -60,7 +60,7 @@ if (isset($_GET['en'])) {
     $license = '
         <h2>License</h2>
         <p>
-            The MP3s on this website are published under the <strong>creative commons licence</strong> "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike</a>".
+            The songs on this website are published under the <strong>creative commons licence</strong> "<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike</a>".
             Please be aware of the licence conditions if you want to download and use this music.
         </p>
         <p>
@@ -104,14 +104,11 @@ function formatBeatName($name) {
 <div class="container text-right">
     <?=$language; ?>
     <div class="social">
-        <a class="instagram" href="https://www.instagram.com/toxzbeats/">
-            <img src="images/instagram.svg" alt="Instagram">
-        </a>
-        <a class="youtube" href="https://www.youtube.com/channel/UCU5_FIDO1V0nH0NUJisMx9g">
-            <img src="images/youtube.svg" alt="YouTube">
-        </a>
         <a class="soundcloud" href="https://soundcloud.com/toxz-beats">
             <img src="images/soundcloud.svg" alt="Soundcloud">
+        </a>
+        <a class="instagram" href="https://www.instagram.com/toxzbeats/">
+            <img src="images/instagram.svg" alt="Instagram">
         </a>
         <a class="facebook" href="https://www.facebook.com/ToxzBeats">
             <img src="images/facebook.svg" alt="Facebook">
@@ -136,10 +133,17 @@ function formatBeatName($name) {
     </div>
 </div>
 <div class="container">
+    <div class="jumbotron">
+        <h2>WAV</h2>
+        <div class="soundclouddownload">
+            <img src="images/soundclouddownload.png" alt="">
+        </div>
+        <iframe width="100%" height="650" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1232039722&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/toxz-beats" title="Toxz" target="_blank" style="color: #cccccc; text-decoration: none;">Toxz</a> · <a href="https://soundcloud.com/toxz-beats/sets/instrumentals" title="Instrumentals" target="_blank" style="color: #cccccc; text-decoration: none;">Instrumentals</a></div>
+    </div>
 </div>
 <div class="beats container">
     <div class="jumbotron">
-        <h2>Beats</h2>
+        <h2>MP3</h2>
         <div class="row">
             <? foreach($beats as $beat): ?>
                 <div class="col-sm-6 col-md-4">
