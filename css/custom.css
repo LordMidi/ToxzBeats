@@ -1,127 +1,166 @@
 @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One|Bungee&display=swap");
 
 html {
-    background: #333;
+  background: #333;
 }
 
 body {
-    background: #000 url(../images/body.png) bottom right no-repeat fixed;
-    font-family: 'Julius Sans One', sans-serif;
+  background: #000 url(../images/body.png) bottom right no-repeat fixed;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
-h1, h2{
-    font-family: 'Bungee', cursive;
+iframe {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
+
+h1 {
+  margin-bottom: 2em;
+}
+
+h1,
+h2 {
+  font-family: 'Bungee', cursive;
+  text-align: center;
 }
 
 h2 {
-    margin-bottom: 1em;
-    text-align: right;
-    color: #888;
+  margin-bottom: 1em;
+  text-align: right;
+  color: #888;
+}
+
+.btn-success {
+  background: none;
+}
+
+.album .btn {
+  width: 100%;
+  margin-bottom: 2em;
 }
 
 .social {
-    display: inline-block;
+  display: inline-block;
 }
 
 @media (max-width: 420px) {
-    .language {
-        display: block;
-        margin-top: 0.5em;
-        text-align: center;
-    }
+  .language {
+    display: block;
+    margin-top: 0.5em;
+    text-align: center;
+  }
 
-    .social {
-        display: block;
-        text-align: center;
-    }
+  .social {
+    display: block;
+    text-align: center;
+  }
 }
 
-.soundcloud, .facebook, .instagram {
-    display: inline-block;
-    width: 3em;
-    height: 3em;
+.soundcloud,
+.spotify,
+.instagram {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
 }
 
-.facebook, .instagram  {
-    margin: 1em 1em 1em 0;
+.spotify,
+.instagram {
+  margin: 1em 1em 1em 0;
 }
 
-.soundcloud img, .facebook img, .instagram img {
-    width: 100%;
-    height: 100%;
+.soundcloud img,
+.spotify img,
+.instagram img {
+  width: 100%;
+  height: 100%;
 }
 
 .soundcloud {
-    margin: 1em;
-}
-
-.toxz {
-    width: 90%;
+  margin: 1em;
 }
 
 .piece {
-    display: block;
-    width: 90%;
-    margin: 1em auto 3em auto;
+  display: block;
+  width: 90%;
+}
+
+.toxz {
+  display: block;
+  width: 40%;
+  margin: 2em auto 3em auto;
+}
+
+.cover {
+  display: block;
+  width: 100%;
+  margin: 0 auto 2em auto;
+  border: 20px #000;
+  box-shadow: 0 0 100px 10px #D5D78E50;
+}
+
+.cover:hover {
+  transform: rotate(-2deg) !important;
 }
 
 .caption {
-    height: 3.5em;
+  height: 3.5em;
 }
 
 .thumbnail.video {
-    line-height: 0;
+  line-height: 0;
 }
 
 .thumbnail .play {
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
-    transition: background 1.5s linear;
-    background-image: url(../images/toxz.svg);
-    background-position: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  transition: background 1.5s linear;
+  background-image: url(../images/toxz.svg);
+  background-position: center;
 }
 
 .thumbnail .play .btn {
-    width: 100%;
-    height: 18em;
-    background: rgba(0, 0, 0, 0.4) url(../images/play.svg) center no-repeat;
-    background-size: 50% 50%;
+  width: 100%;
+  height: 18em;
+  background: rgba(0, 0, 0, 0.4) url(../images/play.svg) center no-repeat;
+  background-size: 50% 50%;
 }
 
 .thumbnail .play .btn:hover {
-    background: rgba(0, 0, 0, 0) url(../images/play.svg) center no-repeat;
-    background-size: 40% 40%;
+  background: rgba(0, 0, 0, 0) url(../images/play.svg) center no-repeat;
+  background-size: 40% 40%;
 }
 
 .thumbnail .play .btn.sm2_playing {
-    background-color: rgba(0, 0, 0, 0.4);
-    background: url(../images/pause.svg) center no-repeat;
-    background-size: 50% 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background: url(../images/pause.svg) center no-repeat;
+  background-size: 50% 50%;
 }
 
 .thumbnail p {
-    margin: 0.5em 0 0 0;
-    padding: 0; 
+  margin: 0.5em 0 0 0;
+  padding: 0;
 }
 
-.thumbnail .download {
-    float: right;
-    width: 5rem;
-    height: 5rem;
-    margin: 0 0 1em 1em;
-    background: url(../images/download.svg) center no-repeat;
+.download {
+  float: right;
+  width: 5rem;
+  height: 5rem;
+  margin: 0 0 1em 1em;
+  background: url(../images/download.svg) center no-repeat;
 }
 
 .jumbotron {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .soundclouddownload {
-    margin: 0.5em 0;
-    text-align: right;
+  margin: 0.5em 0;
+  text-align: right;
 }
 
 .soundclouddownload img {
-    opacity: 0.5;
+  opacity: 0.5;
 }
