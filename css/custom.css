@@ -97,11 +97,22 @@ h2 {
   width: 100%;
   margin: 0 auto 2em auto;
   border: 20px #000;
-  box-shadow: 0 0 100px 10px #D5D78E50;
 }
 
 .cover:hover {
   transform: rotate(-2deg) !important;
+}
+
+#freshfromthetrash .cover {
+  box-shadow: 0 0 100px 10px #D5D78E50;
+}
+
+#cryptobreaksvol1 .cover {
+  box-shadow: 0 0 100px 10px #FCA6AE;
+}
+
+#hardkinderchor .cover {
+  box-shadow: 0 0 100px 10px #df082c;
 }
 
 .caption {

@@ -5,16 +5,9 @@ $title = 'Kostenlose Musik, Beats & Instrumentale | Toxz Beats';
 $metaDescription = 'Kostenlose Downloads von Gema freien Beats & Instrumentals für deine Videos oder Rap Tracks.';
 $language = '<a class="language" href="en">english version</a>';
 $intro = '
-    <h2>Toxz</h2>
+    <h2>Toxz - Beats made in Berlin!</h2>
     <p>
         Geboren am Rande von Berlin verfiel Toxz ca. 1993 der Musik. Überraschend talentfrei veröffentlicht er konstant erfolglos seitdem Beats auf dieser Seite.
-    </p>
-    <p>
-        Aber überzeuge dich doch selbst und drücke einfach mal auf Play! Falls dir was gefällt und die Beats in irgend einer Form nutzen möchtest: keine Problem. Der Download ist aktiviert und kostenlos.
-        Beachte dann noch die Lizenzbedingungen und wir sind beste Homies / Bros / Diggas / Brüder / etc.
-    </p>
-    <p>
-        Toxz - Beats made in Berlin since 1993!
     </p>
     ';
 $seo = '
@@ -150,6 +143,40 @@ function formatBeatName($name)
       <?= $license; ?>
     </div>
   </div>
+  <div class="container album" id="hardkinderchor">
+    <div class="jumbotron">
+      <h2>Toxz - Hard Kinderchor (2025)</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="cover" src="images/Toxz%20-%20Hard%20Kinderchor.jpg" alt="Toxz - Hard Kinderchor">
+          <a class="btn btn-success mb-1" href="download/Toxz%20-%20Hard%20Kinderchor.zip">
+            <img src="images/download.svg" alt="download">
+            Download (311MB)
+          </a>
+        </div>
+        <div class="col-md-6">
+          <iframe height="575" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/2000288604&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container album" id="cryptobreaksvol1">
+    <div class="jumbotron">
+      <h2>Toxz - Crypto Breaks Vol. 1 (2024)</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="cover" src="images/Toxz%20-%20Crypto%20Breaks%20Vol.%201.jpg" alt="Toxz - Crypto Breaks Vol. 1">
+          <a class="btn btn-success mb-1" href="download/Toxz%20-%20Crypto%20Breaks%20Vol.%201.zip">
+            <img src="images/download.svg" alt="download">
+            Download (637MB)
+          </a>
+        </div>
+        <div class="col-md-6">
+          <iframe height="575" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1780763301&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container album" id="freshfromthetrash">
     <div class="jumbotron">
       <h2>Toxz - Fresh From The Trash (2023)</h2>
@@ -157,13 +184,12 @@ function formatBeatName($name)
         <div class="col-md-6">
           <img class="cover" src="images/Toxz%20-%20Fresh%20From%20The%20Trash.jpg" alt="Toxz - Fresh From The Trash">
           <a class="btn btn-success mb-1" href="download/Toxz%20-%20Fresh%20From%20The%20Trash.zip">
-            <img src="images/download.svg" alt="">
+            <img src="images/download.svg" alt="download">
             Download (342MB)
           </a>
         </div>
         <div class="col-md-6">
-          <iframe height="560" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1546064134&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
-          <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/toxz-beats" title="Toxz" target="_blank" style="color: #cccccc; text-decoration: none;">Toxz</a> · <a href="https://soundcloud.com/toxz-beats/sets/fresh-from-the-trash" title="Fresh From The Trash" target="_blank" style="color: #cccccc; text-decoration: none;">Fresh From The Trash</a></div>
+          <iframe height="575" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1546064134&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
         </div>
       </div>
     </div>
@@ -175,7 +201,6 @@ function formatBeatName($name)
         <img src="images/soundclouddownload.png" alt="">
       </div>
       <iframe height="650" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1232039722&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
-      <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/toxz-beats" title="Toxz" target="_blank" style="color: #cccccc; text-decoration: none;">Toxz</a> · <a href="https://soundcloud.com/toxz-beats/sets/instrumentals" title="Instrumentals" target="_blank" style="color: #cccccc; text-decoration: none;">Instrumentals</a></div>
     </div>
   </div>
   <div class="beats container">
