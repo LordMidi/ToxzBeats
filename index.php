@@ -35,6 +35,7 @@ $license = '
     Kontaktiere mich dafür einfach auf <a href="https://www.instagram.com/toxzbeats/">Instagram</a>.
   </p>
 ';
+$download = '<p>Klicke den Download Button zum herunterladen<p>';
 
 if (isset($_GET['en'])) {
   $languageCode = 'en';
@@ -79,6 +80,7 @@ if (isset($_GET['en'])) {
       Please contact me via <a href="https://www.instagram.com/toxzbeats/">Instagram</a>.
     </p>
   ';
+  $download = '<p>Click the download button for downloading<p>';
 }
 
 /**
@@ -199,6 +201,7 @@ function formatBeatName($name)
       <h2>single beats - WAV</h2>
       <div class="soundclouddownload">
         <img src="images/soundclouddownload.png" alt="">
+        <?= $download; ?>
       </div>
       <iframe height="650" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1232039722&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
     </div>
