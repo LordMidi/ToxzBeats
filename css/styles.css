@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Lacquer-Regular;
+  src: url(Lacquer-Regular.ttf);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'Lacquer-Regular';
+  background: #000 url(../images/body.png) bottom right no-repeat fixed;
+}
+
+body {
+  padding: 2rem 1rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  text-align: right;
+}
+
+iframe {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
+a {
+  color: #FE5501;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.download {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0.2rem solid #FE5501;
+  border-radius: 0.3rem;
+}
+
+.download img {
+  height: 2rem;
+  flex-grow: 0;
+}
+
+.download:hover {
+  background-color: #2A0E00;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+
+  img {
+    height: 3rem;
+  }
+}
+
+.piece {
+  display: flex;
+  justify-content: center;
+}
+
+.piece img {
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.logo img {
+  width: 40%;
+}
