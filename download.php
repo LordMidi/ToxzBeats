@@ -21,7 +21,11 @@ if (isset($_GET['file'])) {
         $language = sanitize($language);
         $filePath = 'download/download.log';
         $existingContent = file_exists($filePath) ? file_get_contents($filePath) : '';
-        file_put_contents($filePath, date('Y-m-d H:i:s') . ' | ' . $fileName . ' | ' .  $language . ' | ' . $browser . PHP_EOL . $existingContent) ;
+
+        // don't log china's bot access
+        if ($language !== 'zh-CN') {
+            file_put_contents($filePath, date('Y-m-d H:i:s') . ' | ' . $fileName . ' | ' .  $language . ' | ' . $browser . PHP_EOL . $existingContent) ;
+        }
 
         // return wav with header to ensure download instead of media playback
         $fileParts = explode('.', $fileName);

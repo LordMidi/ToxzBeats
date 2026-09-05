@@ -122,14 +122,14 @@ if (isset($_GET['en'])) {
     <h2>Downloads</h2>
   </div>
 
-  <? foreach (json_decode(file_get_contents('downloads.json'), true) as $download) : ?>
+  <?php foreach (json_decode(file_get_contents('downloads.json'), true) as $download) : ?>
     <div class="container">
-      <? if ($download['type'] === 'track'): ?>
+      <?php if ($download['type'] === 'track'): ?>
         <iframe tabindex="-1" height="166" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%<?= $download['soundcloudId']; ?>&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
-      <? endif; ?>
-      <? if ($download['type'] === 'album'): ?>
+      <?php endif; ?>
+      <?php if ($download['type'] === 'album'): ?>
         <iframe tabindex="-1" height="400" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%<?= $download['soundcloudId']; ?>&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
-      <? endif; ?>
+      <?php endif; ?>
       <a class="download" href="download.php?file=<?= rawurlencode($download['file']); ?>" role="button" aria-label="download <?= $download['title']; ?>" title="download <?= $download['title']; ?>" target="_blank" rel="nofollow">
         <img src="images/download.svg" alt=""> <?= $download['title']; ?>
       </a>
